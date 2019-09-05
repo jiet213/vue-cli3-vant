@@ -114,7 +114,7 @@ module.exports = {
       }
       Object.assign(config, {
         optimization
-      })
+      });
       //警告 webpack 的性能提示
       Object.assign(config, {
         performance: {
@@ -128,7 +128,7 @@ module.exports = {
             return assetFilename.endsWith('.js');
           }
         }
-      })
+      });
     }
   },
   // 第三方插件配置 https://www.npmjs.com/package/vue-cli-plugin-style-resources-loader
